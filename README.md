@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-# Spam detection
+# Spam-Detection
+Spam detection in SMS using NLP and ML techniques. Implemented data preprocessing, Bag of Words with six classifiers (Naive Bayes: 97%), and a pretrained BERT model achieving 98% accuracy for robust spam classification. Includes data preprocessing, feature extraction, and model comparison.
 
 ## General info
 
-The project concerns spam detection in SMS messages to determined whether the messages is spam or not. It includes data analysis, data preparation, text mining and created model by using different machine learning algorithms and **BERT model**. 
+The project concerns spam detection in SMS messages to determined whether the messages is spam or not. It includes data analysis, data preparation, text mining and created model by using different machine learning algorithms and *BERT model*. 
 
 ## The data
 The dataset comes from SMS Spam Collection and can be find [here](https://www.kaggle.com/uciml/sms-spam-collection-dataset). This SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It comprises one set of SMS messages in English of 5,574 messages, which is tagged acording being ham (legitimate) or spam.
@@ -12,13 +12,13 @@ The dataset comes from SMS Spam Collection and can be find [here](https://www.ka
 The aim of the project was spam detection in SMS messages. The spam filtering is one of the way to reduce the number of scams messages. In the analyze was applied text classification with different machine learning algorithms (such as Naive Bayes, Logistic Regression, SVM, Random Forest) to determined whether the messages is spam or not. 
 
 ## Project contains:
-- **Part 1:** Spam classification with ML algorithms - **Spam.ipynb**
-- **Part 2:** Spam classification with BERT model - **Spam_bert.ipynb**
-- Python script to use spam model - **spam_model.py**
-- Python script to use spam model with smote method - **spam_smote_model.py**
-- Python script to use spam model with BERT - **spam_bert.py**
-- Python script to clean data - **clean_data.py**
-- Python script to generate predictions from trained model - **predictions.py**
+- *Part 1:* Spam classification with ML algorithms - *Spam.ipynb*
+- *Part 2:* Spam classification with BERT model - *Spam_bert.ipynb*
+- Python script to use spam model - *spam_model.py*
+- Python script to use spam model with smote method - *spam_smote_model.py*
+- Python script to use spam model with BERT - *spam_bert.py*
+- Python script to clean data - *clean_data.py*
+- Python script to generate predictions from trained model - *predictions.py*
 - models - models used in the project.
 
 ## Summary
@@ -28,7 +28,7 @@ In the second I have used a pretrained BERT model from Huggingface Transformers 
 
 Model | Embeddings | Accuracy
 ------------ | ------------- | ------------- 
-**BERT** | Bert tokenizer | **0.98**
+*BERT* | Bert tokenizer | *0.98*
 LinearSVC| BOW | 0.98
 SGD |BOW  | 0.98
 Random Forest | BOW | 0.98
@@ -53,8 +53,5 @@ You can run the scripts in the terminal:
     spam_smote_model.py
     spam_bert.py
     predictions.py
-
-=======
-# Spam-detection-mail
-Spam detection in SMS using NLP and ML techniques. Implemented data preprocessing, Bag of Words with six classifiers (Naive Bayes: 97%), and a pretrained BERT model achieving 98% accuracy for robust spam classification. Includes data preprocessing, feature extraction, and model comparison.
->>>>>>> 7456d1445c8f29e871e829bc5be331c634a874bd
+MIT license
+================================================
